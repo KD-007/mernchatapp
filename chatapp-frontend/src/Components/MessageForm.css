@@ -1,0 +1,74 @@
+.messageOutput{
+    height: 75vh;
+    border: 1px solid gainsboro;
+    overflow-y: scroll ;
+    margin-bottom: 10px;
+    position: relative;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  body{
+    /* background: #8e9eab; 
+    background: -webkit-linear-gradient(to right, #eef2f3, #788590);  
+    background: linear-gradient(to right, #eef2f3, #8e9eab);  */
+
+
+    background: #87939d; 
+    background: -webkit-linear-gradient(to right, #d4d5d5, #788590);  
+    background: linear-gradient(to right, #eef2f3, #8e9eab); 
+    
+}
+  .message-inner{
+    margin-left: 10px;
+    margin-bottom: 10px;    
+    padding: 10px;
+    min-width: 200px;
+    max-width: 90%;
+    text-align: left;
+    min-height: 80px;
+    font:400 1em, sans-serif;
+    display: inline-block;
+    border-radius: 10px;
+    background: #ffb347;  
+
+    
+
+    
+
+  }
+
+  .incoming-message .message-inner {
+    /* background: #fa8362d7;  */
+    background: #00c6ff;  
+
+    
+    
+    
+    
+    
+  }
+
+  .message  {
+   text-align: right;
+   margin-right: 10px;
+   margin-bottom: 10px;
+  }
+
+  .message-timestamp{
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .message-sender{
+    font-weight: bold;
+    margin-bottom:1rem;
+  }
+
+  #room-heading{
+    text-align: center;
+    border: 0.2px solid rgba(0, 0, 0, 0.153);
+    background-color: rgba(241, 239, 239, 0.611);
+    margin-bottom: 0px;
+  }
